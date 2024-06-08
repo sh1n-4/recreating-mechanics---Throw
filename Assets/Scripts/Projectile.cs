@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    [SerializeField] float speed;
+    [SerializeField] float _InitialVelocity;
     [SerializeField] float _Angle;
     [SerializeField] LineRenderer _Line;
     [SerializeField] float _Step;
